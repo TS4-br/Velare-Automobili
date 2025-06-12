@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url(../FONT/Playfair_Display_SC/);
+}
+
+body {
+    width: 1521px;
+    height: 3837px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Home */
+
+#img1 {
+    display: flex;
+    margin-top: -545px;
+    position: absolute;
+    z-index: -1;
+    width: 1521px;
+    height: 1500px;
+}
+
+.t1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Playfair';
+}
+
+.t1:hover {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Playfair';
+}
+#homebar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    margin-top: 0px;
+    height: 70px;
+    width: 1521px;
+}
+
+#logo {
+    width: 110px;
+    height: 70px;
+}
+
+.t2 {
+    border: 2px solid white;
+    height: 1px;
+    width: 50px;
+}
+
+.t3 {
+    border: 2px solid white;
+    height: 1px;
+    width: 50px;
+}
+
+.t4 {
+    border: 2px solid white;
+    height: 1px;
+    width: 50px;
+}
+
+#t0 {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#t5 {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: 'Playfair';
+    color: white;
+    font-size: 100px;
+}
+
+#t6 {
+    margin-left: 100px;
+    font-family: 'Playfair';
+    color: white;
+    font-size: 40px;
+}
+
+#t7 {
+    margin-right: 170px;
+    margin-top: 275px;
+    text-align: right;
+    margin-left: 100px;
+    font-family: 'Playfair';
+    color: white;
+    font-size: 35px;
+}
+
+/* História */
+
+#fundo2 {
+    background: #291215;
+    background: linear-gradient(180deg,rgba(41, 18, 21, 1) 0%, rgba(92, 46, 53, 1) 100%);
+    margin-top: 70px;
+    width: 1521px;
+    height: 800px;
+}
+
+#fundo2_1 {
+    opacity: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#história {
+    text-align: center;
+    width: 230px;
+    background-color: #31151A;
+    font-family: 'Playfair';
+    color: white;
+    font-size: 50px;
+    margin-top: -590px;
+    margin-left: 100px;
+}
+
+#texto1 {
+    padding-top: 20px;
+    height: 140px;
+    width: 1200px;
+    margin-top: 20px;
+    background-color: #542831;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 170px;
+}
+
+#fundador {
+    text-align: center;
+    width: 300px;
+    background-color: #31151A;
+    font-family: 'Playfair';
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 1100px;
+}  
+
+#texto2 {
+    padding-top: 20px;
+    height: 230px;
+    width: 720px;
+    margin-top: 20px;
+    background-color: #542831;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 680px;
+}
+
+#homem {
+    margin-left: 200px;
+    margin-top: -300px;
+    width: 350px;
+    height: 400px;
+}
+
+/* Serviços */
+
+#fundo3 {
+    background: #291215;
+    background: linear-gradient(180deg,rgba(41, 18, 21, 1) 0%, rgba(92, 46, 53, 1) 100%);
+    width: 1521px;
+    height: 800px;
+    margin-top: 0px;
+}
+
+#serviços {
+    text-align: center;
+    width: 600px;
+    font-family: 'Playfair';
+    color: white;
+    font-size: 40px;
+    margin-top: -740px;
+    margin-left: 450px;
+}
+
+#carro1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 570px;
+}
+
+#tx1 {
+    color: white;
+    font-family: 'Playfair';
+    font-size: 40px;
+    text-align: center;
+}
+
+#tx1_1 {
+    margin-top: 20px;
+    margin-left: 570px;
+    text-align: center;
+    height: 200px;
+    width: 350px;
+}
+
+/* Produtos */
+
+#fundo4 {
+    width: 1521px;
+    height: 800px;
+    background: #291215;
+    background: linear-gradient(180deg,rgba(41, 18, 21, 1) 0%, rgba(92, 46, 53, 1) 100%);
+}
+
+#Produtos {
+    text-align: center;
+    width: 600px;
+    font-family: 'Playfair';
+    color: white;
+    font-size: 60px;
+    margin-top: 60px;
+    margin-left: 463px;
+}
+
+.t15 {
+    width: 230px;
+    height: 230px;
+}
+
+#carros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#carros2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#carros_1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.t16 {
+    font-size: 30px;
+    font-family: 'Playfair';
+    color: white;
+}
+
+#carros_2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#fundo5 {
+    width: 1521px;
+    height: 743px;
+    background: #291215;
+    background: linear-gradient(180deg,rgba(41, 18, 21, 1) 0%, rgba(92, 46, 53, 1) 100%);
+}
+
+#f5_1 {
+    margin-top: -640px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: 'Playfair';
+    color: white;
+}
+
+#f5_2 {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 75px;
+    height: 75px;
+}
+
+#f5_3 {
+    text-decoration: underline;
+    margin-top: -55px;
+    margin-left: 190px;
+    font-size: 20px;
+    font-family: 'Playfair';
+    color: white;
+}
+
+#f5_4 {
+    margin-left: -90px;
+    margin-top: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.f5_5 {
+    margin-left: 190px;
+    font-size: 40px;
+    font-family: 'Playfair';
+    color: white;
+}
+
+#f5_6 {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Playfair';
+    color: white;
+}
+
+#f5_7 {
+    width: 500px;
+    margin-top: -65px;
+    margin-left: 690px;
+    font-size: 30px;
+    font-family: 'Playfair';
+    color: white;
+}
+
+button {
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: #310C13;
+    color: white;
+    border: none;
+    font-size: 30px;
+    font-family: 'Playfair';
+}
+
+button:hover {
+    background-color: white;
+    border: 5px solid #310C13;
+    color: #310C13;
+}
+
+.redes {
+    width: 90px;
+    height: 90px;
+}
+
+#f5_9 {
+    margin-left: 690px;
+    margin-top: -70px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#f5_10 {
+    color: white;
+    margin-top: -10px;
+    margin-left: 190px;
+    font-size: 15px;
+    font-family: 'Playfair';
+}
+
+#f5_11 {
+    color: white;
+    margin-top: 125px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Playfair';
+}
